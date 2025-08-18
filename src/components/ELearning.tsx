@@ -85,7 +85,7 @@ const ELearning = () => {
                 <img
                   src="https://www.sftrainings.org/wp-content/uploads/2024/12/Idhar-Udhar-ke-use-6.png"
                   alt="E-Learning Benefits Illustration"
-                  className="max-w-md rounded-lg shadow-lg"
+                  className="max-w-sm rounded-lg shadow-lg"
                 />
               </div>
             </div>

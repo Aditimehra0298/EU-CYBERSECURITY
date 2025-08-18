@@ -132,7 +132,7 @@ const Hero = () => {
               <div className="p-6 space-y-4">
                 <a href="tel:+918894915917" className="flex items-center gap-3 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg px-4 py-3 transition-colors">
                   <PhoneCircleIcon className="w-5 h-5" />
-                  <span>+Phone Number</span>
+                  <span>Phone Number</span>
                 </a>
                 <a href="https://wa.me/+918894915917" target="_blank" rel="noreferrer" className="flex items-center gap-3 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg px-4 py-3 transition-colors">
                   <WhatsAppIcon className="w-5 h-5" />
