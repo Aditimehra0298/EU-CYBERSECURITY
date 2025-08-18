@@ -11,7 +11,7 @@ const ELearning = () => {
           {/* Intro */}
           <div className="text-center mb-12">
             <p className="text-sm font-medium text-teal-700 uppercase tracking-wider mb-2">Train smarter, not harder — with learning designed for the way your people work today.</p>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Our Cutting-Edge E‑Learning Portal</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">Our Cutting-Edge E‑Learning Portal</h2>
             <div className="flex justify-center mb-6">
               <img
                 src="/l7.png"
@@ -72,7 +72,7 @@ const ELearning = () => {
           
 
           {/* Why E‑Learning */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Why E‑Learning?</h3>
               <p className="text-teal-700 font-medium mb-4">Futurise Your Training Approach</p>
@@ -80,6 +80,14 @@ const ELearning = () => {
                 Upgrade to a training model that is cost‑effective, scalable, and performance‑driven. Our e‑learning programs enhance knowledge retention, reduce downtime, and keep your team ahead in an ever‑evolving business landscape.
               </p>
               
+              {/* Image directly after the text with no space */}
+              <div className="mb-6">
+                <img
+                  src="https://www.sftrainings.org/wp-content/uploads/2024/12/Idhar-Udhar-ke-use-6.png"
+                  alt="E-Learning Benefits Illustration"
+                  className="max-w-md rounded-lg shadow-lg"
+                />
+              </div>
             </div>
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Train Your Employees</h3>

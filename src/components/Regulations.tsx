@@ -24,7 +24,7 @@ const Regulations = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Understanding the <span className="bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">Regulations</span>
+              Understanding the <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">Regulations</span>
             </h2>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
               Navigate the complex landscape of EU cybersecurity regulations with confidence

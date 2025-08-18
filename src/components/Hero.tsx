@@ -66,8 +66,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg sm:text-xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Empowering organizations across world and the EU to meet the highest standards in cybersecurity, 
-            digital resilience, and EU regulatory compliance.
+            Empowering the AI Era of Assurance: Cutting-Edge Conformity Assessment Training
           </p>
           
           <p className="text-md sm:text-lg text-blue-200 mb-12 max-w-3xl mx-auto">

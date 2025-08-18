@@ -4,7 +4,7 @@ const About = () => {
   const features = [
     {
       icon: Globe,
-      title: "Pan-European presence with strong foothold in Greece",
+      title: "Global presence with strong foothold ",
       description: "Operating in 7 EU countries since 2012"
     },
     {
@@ -43,9 +43,9 @@ const About = () => {
                 <h2 id="about-title" className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 text-center">
                   About <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">Sustainable Future Trainings</span>
                 </h2>
-                <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto text-center">
+                <p className="text-lg text-black-700 leading-relaxed max-w-3xl mx-auto text-center">
                 We are a team of management systems and compliance experts delivering practical, future-ready skills through experiential “learning by doing” training. Using live scenarios, expert guidance, and interactive workshops, we help organizations plan, implement, and improve systems to meet global standards in sustainability, compliance, quality, and resilience.
-Our online and offline programs cover ISO standards, EU regulations, risk management, leadership, and sustainable practices — embedding compliance, safety, and value creation into your processes for top performance today and tomorrow
+Our online and offline programs cover ISO and IEC standards, EU regulations, risk management, leadership, and sustainable practices — embedding compliance, safety, and value creation into your processes for top performance today and tomorrow
                 </p>
               </div>
 

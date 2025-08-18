@@ -189,7 +189,7 @@ const Training = () => {
               </div>
               <p className="text-gray-600 mb-6">Learn in Greek or your preferred EU language with native-speaking instructors</p>
               <div className="flex flex-wrap justify-center gap-2">
-                {['English', 'Greek (Ελληνικά)', 'French', 'German', 'Spanish', 'Italian'].map((language, index) => (
+                {['English', 'Greek', 'French', 'German', 'Spanish', 'Italian'].map((language, index) => (
                   <span key={index} className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-medium">
                     {language}
                   </span>

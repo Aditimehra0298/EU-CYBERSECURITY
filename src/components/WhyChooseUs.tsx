@@ -78,6 +78,36 @@ const WhyChooseUs = () => {
       author: "Hans Mueller",
       position: "Head of IT Risk, Berlin Insurance",
       rating: 5
+    },
+    {
+      quote: "Outstanding ISO 27001 implementation guidance. They made complex standards simple and actionable.",
+      author: "Sofia Rodriguez",
+      position: "IT Director, Madrid Healthcare",
+      rating: 5
+    },
+    {
+      quote: "The risk management training was world-class. Our team now handles cybersecurity threats with confidence.",
+      author: "Lars Andersen",
+      position: "Security Manager, Copenhagen Energy",
+      rating: 5
+    },
+    {
+      quote: "Professional, knowledgeable, and results-driven. They exceeded our expectations in every aspect.",
+      author: "Elena Popescu",
+      position: "Compliance Officer, Bucharest Telecom",
+      rating: 5
+    },
+    {
+      quote: "Their leadership development program transformed our management approach to cybersecurity.",
+      author: "Marco Rossi",
+      position: "CTO, Milan Manufacturing",
+      rating: 5
+    },
+    {
+      quote: "The sustainable practices integration was brilliant. We're now leading in both security and ESG.",
+      author: "Anna Kowalska",
+      position: "Sustainability Lead, Warsaw Bank",
+      rating: 5
     }
   ];
 
@@ -144,22 +174,45 @@ const WhyChooseUs = () => {
           
           {/* Testimonials */}
           <div className="mb-16">
-            <h3 className="text-2xl font-bold text-white text-center mb-12">What Our Clients Say</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {testimonials.map((testimonial, index) => (
-                <div key={index} className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-2xl border border-gray-700">
-                  <div className="flex mb-4">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                    ))}
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 text-center">
+             <span className="text-white">What Our Clients Say</span>
+            </h2>
+            
+            {/* Moving testimonials container */}
+            <div className="relative overflow-hidden">
+              <div className="flex animate-scroll-left">
+                {/* First set of testimonials */}
+                {testimonials.map((testimonial, index) => (
+                  <div key={index} className="flex-shrink-0 w-80 mx-4 bg-gray-800/50 backdrop-blur-sm p-6 rounded-2xl border border-gray-700">
+                    <div className="flex mb-4">
+                      {[...Array(testimonial.rating)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                      ))}
+                    </div>
+                    <p className="text-gray-300 mb-4 italic">"{testimonial.quote}"</p>
+                    <div>
+                      <p className="text-white font-semibold">{testimonial.author}</p>
+                      <p className="text-teal-400 text-sm">{testimonial.position}</p>
+                    </div>
                   </div>
-                  <p className="text-gray-300 mb-4 italic">"{testimonial.quote}"</p>
-                  <div>
-                    <p className="text-white font-semibold">{testimonial.author}</p>
-                    <p className="text-teal-400 text-sm">{testimonial.position}</p>
+                ))}
+                
+                {/* Duplicate set for seamless loop */}
+                {testimonials.map((testimonial, index) => (
+                  <div key={`duplicate-${index}`} className="flex-shrink-0 w-80 mx-4 bg-gray-800/50 backdrop-blur-sm p-6 rounded-2xl border border-gray-700">
+                    <div className="flex mb-4">
+                      {[...Array(testimonial.rating)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                      ))}
+                    </div>
+                    <p className="text-gray-300 mb-4 italic">"{testimonial.quote}"</p>
+                    <div>
+                      <p className="text-white font-semibold">{testimonial.author}</p>
+                      <p className="text-teal-400 text-sm">{testimonial.position}</p>
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
           
