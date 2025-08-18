@@ -92,7 +92,7 @@ const SampleVideos = () => {
           {/* Collaboration Credit */}
           <div className="text-center mt-2">
             <p className="text-sm text-gray-400 italic animate-pulse">
-              This video is the result of a dynamic collaboration between DAMNART and its AI division, Evoke, seamlessly blending cutting-edge design expertise with advanced AI technology to showcase the future of transformative, multilingual learning content.
+            This training video is the result of our dynamic collaboration with Evoke.AI DAMNART, a Design and Technology Company of Dubai, with presence in India, the UK, Canada and the US.
             </p>
           </div>
         </div>
